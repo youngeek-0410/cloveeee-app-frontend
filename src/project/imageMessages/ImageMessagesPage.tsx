@@ -12,7 +12,7 @@ type Props = {
 export const ImageMessagesPage: React.FC<Props> = (props) => {
   return (
     <>
-      <Headline title={`${props.count}件のメッセージ`} />
+      <Headline title={`${props.count}件の写真`} />
       <div>
         <PhotoList>
           {props.items.map((imageMessageData, i) => {
@@ -32,5 +32,6 @@ const PhotoList = styled("div", {
 
 const Photo = styled("img", {
   width: "32%",
+  maxWidth: "32%",
   height: "auto",
 });
