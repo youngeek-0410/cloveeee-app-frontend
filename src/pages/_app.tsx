@@ -43,11 +43,11 @@ const App = ({ Component, pageProps }: AppPropsWithLayout<GeneralPageProps>) => 
           <title>Cloveeee</title>
           <meta key="og:title" property="og:title" content={"オリジナルWebサイト生成サービス"} />
           <meta property="og:type" content="website" />
-          {/* <meta
+          <meta
             key="og:description"
             property="og:description"
-            content={`このサイトは${pageProps.project.receiver_name}さんのWebサイトです。${pageProps.project.receiver_name}さん、${pageProps.project.top_text}`}
-          /> */}
+            content={"Cloveeeeは世界にたった一つだけのオリジナルWebサイトを作ることができるサービスです"}
+          />
           <meta
             key="og:image"
             property="og:image"
